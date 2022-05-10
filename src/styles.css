@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(129, 129, 179);
+}
+.container h2 {
+  font-family: "Inspiration", cursive;
+  font-weight: lighter;
+}
+.container {
+  text-align: center;
+  border-radius: 2%;
+  border: 2px solid silver;
+  background-color: rgb(230, 218, 218);
+  width: 500px;
+  margin: 10% auto;
+  height: 320px;
+}
+.container .input {
+  width: 95%;
+  height: 35px;
+  margin-bottom: 20px;
+  border: 2px solid silver;
+  border-radius: 10px;
+}
+.container .submit:hover {
+  color: black;
+}
+.container .submit {
+  background-color: rgb(135, 135, 180);
+  color: aliceblue;
+  padding: 15px 30px;
+  font-size: 1.3em;
+  font-weight: 200;
+  border-radius: 10px;
+  border: 2px solid silver;
+  margin-bottom: 15px;
+}
+.container .error {
+  background-color: rgb(243, 155, 155);
+  line-height: 50px;
+  font-size: 20px;
+  display: none;
+}
+.container .output {
+  font-size: 30px;
+  color: rgb(150, 150, 182);
+  text-transform: uppercase;
+}
